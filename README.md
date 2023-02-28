@@ -101,5 +101,6 @@ Set the path to the Swagger Schema Specification
 ![](https://avatars0.githubusercontent.com/u/726519?s=40&v=4)
 
 * **André Wuttig** - *Concept, Initial work* - [aWuttig](https://github.com/aWuttig)
+* **Tomáš Hojgr** - *Modification for PHP 7.4* - [Religisaci](https://github.com/religisaci)
 
 See also the list of [contributors](https://github.com/portrino/codeception-api-validator/graphs/contributors) who participated in this project.
