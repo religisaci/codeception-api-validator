@@ -1,24 +1,17 @@
 {
-    "name": "awuttig/codeception-api-validator",
-    "description": "Validate API Requests and Responses against Swagger / OpenAPI definitions",
+    "name": "religis/codeception-api-validator",
+    "description": "Validate API Requests and Responses against Swagger / OpenAPI definitions. This package is modified awuttig/codeception-api-validator package for PHP 7.4",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "André Wuttig",
             "email": "wuttig@mailbox.org"
+        },
+        {
+            "name": "Tomáš Hojgr",
+            "email": "tomas.hojgr@religis.cz"
         }
     ],
-    "require": {
-        "codeception/codeception": "^5.0.0",
-        "codeception/module-phpbrowser": "^3.0.0",
-        "codeception/module-rest": "^3.0.0",
-        "eleven-labs/api-validator": "~0.7.0",
-        "symfony/serializer": "^3.4"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~9.5",
-        "squizlabs/php_codesniffer": "~3.0.2",
-        "phpstan/phpstan": "^1.8"
-    },
     "autoload": {
         "classmap": [
             "src/"
@@ -26,7 +19,20 @@
     },
     "config": {
         "optimize-autoloader": true,
+        "sort-packages": true,
+        "platform-check": true,
+        "platform": {
+            "php": "7.4"
+        },
         "vendor-dir": "build/vendor",
         "bin-dir": "build/bin"
+    },
+    "require":
+    {
+        "codeception/codeception": "*",
+        "codeception/module-phpbrowser": "*",
+        "codeception/module-rest": "*",
+        "eleven-labs/api-validator": "*",
+        "symfony/serializer": "*"
     }
 }

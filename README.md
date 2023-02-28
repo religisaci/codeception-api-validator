@@ -8,7 +8,7 @@ Validate API Requests and Responses against Swagger / OpenAPI definitions
 You need to add the repository into your composer.json file
 
 ```bash
-    composer require --dev religis/codeception-api-validator
+    composer require --dev religisaci/codeception-api-validator
 ```
 
 
