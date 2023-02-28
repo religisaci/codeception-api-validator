@@ -1,12 +1,14 @@
 # codeception-api-validator
 Validate API Requests and Responses against Swagger / OpenAPI definitions
 
+*Note: this is based on awuttig/codeception-api-validator and modified for **PHP 7.4***
+
 ## Installation
 
 You need to add the repository into your composer.json file
 
 ```bash
-    composer require --dev awuttig/codeception-api-validator
+    composer require --dev religis/codeception-api-validator
 ```
 
 
@@ -21,19 +23,19 @@ You can use this module as any other Codeception module, by adding 'ApiValidator
 ```yml
 modules:
     enabled:
-        - ApiValidator:
-            depends: REST
+        - \Religis\ApiValidator:
+            depends: [REST, PhpBrowser]
             schema: '/tests/_data/swagger.yaml'
             
  ```  
 
 Update Codeception build
-  
+
 ```bash
   codecept build
 ```
 
-### Implement the cept / cest 
+### Implement the cept / cest
 
 ```php
   $I->wantToTest('Validate request and response against OpenAPI Specification.');
