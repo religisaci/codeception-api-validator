@@ -1,5 +1,5 @@
 {
-    "name": "religis/codeception-api-validator",
+    "name": "religisaci/codeception-api-validator",
     "description": "Validate API Requests and Responses against Swagger / OpenAPI definitions. This package is modified awuttig/codeception-api-validator package for PHP 7.4",
     "version": "1.0.0",
     "authors": [

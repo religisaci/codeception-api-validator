@@ -1,6 +1,6 @@
 <?php
 
-namespace Religis;
+namespace Religisaci;
 
 /*
  * This file is part of the Codeception ApiValidator Module project
@@ -50,7 +50,7 @@ Example configuring REST as backend for ApiValidator module.
 --
 modules:
     enabled:
-        - Religis\ApiValidator:
+        - Religisaci\ApiValidator:
             depends: [REST, PhpBrowser]
             schema: '../../openapi.yaml'
 --

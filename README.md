@@ -23,7 +23,7 @@ You can use this module as any other Codeception module, by adding 'ApiValidator
 ```yml
 modules:
     enabled:
-        - \Religis\ApiValidator:
+        - \Religisaci\ApiValidator:
             depends: [REST, PhpBrowser]
             schema: '/tests/_data/swagger.yaml'
             
